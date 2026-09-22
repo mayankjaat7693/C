@@ -10,12 +10,18 @@
 #include<stdio.h>
 int main()
 {
-
-
-
-
-
-
-
+int x=50;
+if(x<50)                                                       // if (conditional keyword)
+{
+printf("x is less than 50\n");
+}
+else if(x>50)
+{
+printf("x is greater than 50\n");
+}
+else                                                          // else (conditional keyword)
+{
+printf("x is equal to 50\n");                                  // \n line break (cursor blink from new line
+}
 return 0;
 }
