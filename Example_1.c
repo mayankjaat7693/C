@@ -1,3 +1,7 @@
+/* Name : Mayank Jaat
+   Date : 03 April 2026
+   assignment : Example of Student Result ( Pass | Fail | Compartment )
+*/
 #include<stdio.h>
 int main()
 {
@@ -33,7 +37,7 @@ return 0;
 }
 printf("Enter marks of hindi: ");
 scanf("%d",&hindi);
-if(hindi<0 || hindi>100)
+if(hindi<0 || hindi<100)
 {
 printf("Invalid hindi marks!!!\n");
 return 0;
