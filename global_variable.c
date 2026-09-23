@@ -9,6 +9,6 @@ int x=10;           // global variable
 int main()
 {
 int y=20;          // local variable 
-printf("%d\n",x+y);
+printf("%d",x+y);
 return 0;
 }
